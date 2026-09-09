@@ -1,0 +1,2 @@
+curl -X PUT -b cookies.txt 'http://localhost:5000/customer/auth/review/1?review=This%20book%20is%20a%20masterpiece%20of%20African%20literature.'
+{"message":"The review for the book with ISBN 1 has been added by testuser","reviews":{"testuser":"This book is a masterpiece of African literature."}}
